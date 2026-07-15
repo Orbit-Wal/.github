@@ -22,10 +22,10 @@ GlobeWallet is a full-stack wallet for the Stellar network: hold and send XLM, c
 <!--REPO_TABLE:START-->
 | Repo | What it is | Language | Last push |
 |---|---|---|---|
-| [`mobile`](https://github.com/Orbit-Wal/mobile) | iOS/Android wallet app | `TypeScript` | 18h ago |
-| [`Globe-Wallet`](https://github.com/Orbit-Wal/Globe-Wallet) | Web app — dashboard, convert, off-ramp, savings | `TypeScript` · ⭐ 3 | 18h ago |
-| [`backend`](https://github.com/Orbit-Wal/backend) | REST API — accounts, balances, payments, pricing | `TypeScript` | 18h ago |
-| [`contract`](https://github.com/Orbit-Wal/contract) | On-chain wallet registry & token-transfer guardrails | `Rust` | 18h ago |
+| [`mobile`](https://github.com/Orbit-Wal/mobile) | iOS/Android wallet app | `TypeScript` | 1d ago |
+| [`Globe-Wallet`](https://github.com/Orbit-Wal/Globe-Wallet) | Web app — dashboard, convert, off-ramp, savings | `TypeScript` · ⭐ 3 | 1d ago |
+| [`backend`](https://github.com/Orbit-Wal/backend) | REST API — accounts, balances, payments, pricing | `TypeScript` | 1d ago |
+| [`contract`](https://github.com/Orbit-Wal/contract) | On-chain wallet registry & token-transfer guardrails | `Rust` | 1d ago |
 <!--REPO_TABLE:END-->
 
 ## Architecture
@@ -84,14 +84,14 @@ All apps default to **Stellar testnet** — see each repo's `.env.example` befor
 ## Recent activity
 
 <!--RECENT_ACTIVITY:START-->
-- **mobile** [`424fe8e`](https://github.com/Orbit-Wal/mobile/commit/424fe8edcce891890770082c1513d3df237ee6aa) Add CONTRIBUTING.md and PR template requiring evidence of work — _yosemite01, 19h ago_
-- **backend** [`7d417a8`](https://github.com/Orbit-Wal/backend/commit/7d417a8d7a3eb582613ed30833d56b3821c3cc5e) Add CONTRIBUTING.md and PR template requiring evidence of work — _yosemite01, 19h ago_
-- **contract** [`326f54f`](https://github.com/Orbit-Wal/contract/commit/326f54ff6ae7b29420984bd126450de5b3692d45) Add CONTRIBUTING.md and PR template requiring evidence of work — _yosemite01, 19h ago_
-- **Globe-Wallet** [`f5b506e`](https://github.com/Orbit-Wal/Globe-Wallet/commit/f5b506e8a03250f513efe663b98324cc419898c9) Add CONTRIBUTING.md and PR template requiring evidence of work — _yosemite01, 19h ago_
-- **mobile** [`7b68616`](https://github.com/Orbit-Wal/mobile/commit/7b6861642025f3d02c2b04626ed4647740376d60) Merge pull request #1 from Orbit-Wal/feat/wallet-create-import-secure-st — _ndii-dev, 2d ago_
-- **Globe-Wallet** [`74de564`](https://github.com/Orbit-Wal/Globe-Wallet/commit/74de5642f435312bd29b7840aafe2639661eb6f6) Merge pull request #60 from Orbit-Wal/fix/off-ramp-rate-duplication-and- — _ndii-dev, 2d ago_
-- **Globe-Wallet** [`c6352cc`](https://github.com/Orbit-Wal/Globe-Wallet/commit/c6352cca01054b2c08310fe73b67330a6f58028a) Fix diverging off-ramp rate constants and duplicated CI job/JSON keys — _ndii-dev, 2d ago_
-- **backend** [`439fea7`](https://github.com/Orbit-Wal/backend/commit/439fea7899c352e8deefcc0a4128bae9707eb4c7) Merge pull request #1 from Orbit-Wal/fix/auth-and-cors — _ndii-dev, 2d ago_
+- **mobile** [`424fe8e`](https://github.com/Orbit-Wal/mobile/commit/424fe8edcce891890770082c1513d3df237ee6aa) Add CONTRIBUTING.md and PR template requiring evidence of work — _yosemite01, 1d ago_
+- **backend** [`7d417a8`](https://github.com/Orbit-Wal/backend/commit/7d417a8d7a3eb582613ed30833d56b3821c3cc5e) Add CONTRIBUTING.md and PR template requiring evidence of work — _yosemite01, 1d ago_
+- **contract** [`326f54f`](https://github.com/Orbit-Wal/contract/commit/326f54ff6ae7b29420984bd126450de5b3692d45) Add CONTRIBUTING.md and PR template requiring evidence of work — _yosemite01, 1d ago_
+- **Globe-Wallet** [`f5b506e`](https://github.com/Orbit-Wal/Globe-Wallet/commit/f5b506e8a03250f513efe663b98324cc419898c9) Add CONTRIBUTING.md and PR template requiring evidence of work — _yosemite01, 1d ago_
+- **mobile** [`7b68616`](https://github.com/Orbit-Wal/mobile/commit/7b6861642025f3d02c2b04626ed4647740376d60) Merge pull request #1 from Orbit-Wal/feat/wallet-create-import-secure-st — _ndii-dev, 3d ago_
+- **Globe-Wallet** [`74de564`](https://github.com/Orbit-Wal/Globe-Wallet/commit/74de5642f435312bd29b7840aafe2639661eb6f6) Merge pull request #60 from Orbit-Wal/fix/off-ramp-rate-duplication-and- — _ndii-dev, 3d ago_
+- **Globe-Wallet** [`c6352cc`](https://github.com/Orbit-Wal/Globe-Wallet/commit/c6352cca01054b2c08310fe73b67330a6f58028a) Fix diverging off-ramp rate constants and duplicated CI job/JSON keys — _ndii-dev, 3d ago_
+- **backend** [`439fea7`](https://github.com/Orbit-Wal/backend/commit/439fea7899c352e8deefcc0a4128bae9707eb4c7) Merge pull request #1 from Orbit-Wal/fix/auth-and-cors — _ndii-dev, 3d ago_
 <!--RECENT_ACTIVITY:END-->
 
 ---
@@ -99,6 +99,6 @@ All apps default to **Stellar testnet** — see each repo's `.env.example` befor
 <div align="center">
 <sub>Building the crypto ↔ fiat bridge on Stellar.</sub><br>
 <sub><!--LAST_UPDATED:START-->
-auto-updated · last refresh 2026-07-14 08:01 UTC
+auto-updated · last refresh 2026-07-15 08:06 UTC
 <!--LAST_UPDATED:END--></sub>
 </div>
