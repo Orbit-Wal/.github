@@ -22,10 +22,10 @@ GlobeWallet is a full-stack wallet for the Stellar network: hold and send XLM, c
 <!--REPO_TABLE:START-->
 | Repo | What it is | Language | Last push |
 |---|---|---|---|
-| [`mobile`](https://github.com/Orbit-Wal/mobile) | iOS/Android wallet app | `TypeScript` | 3d ago |
-| [`Globe-Wallet`](https://github.com/Orbit-Wal/Globe-Wallet) | Web app — dashboard, convert, off-ramp, savings | `TypeScript` · ⭐ 3 | 1h ago |
-| [`backend`](https://github.com/Orbit-Wal/backend) | REST API — accounts, balances, payments, pricing | `TypeScript` | 1h ago |
-| [`contract`](https://github.com/Orbit-Wal/contract) | On-chain wallet registry & token-transfer guardrails | `Rust` | 1h ago |
+| [`mobile`](https://github.com/Orbit-Wal/mobile) | iOS/Android wallet app | `TypeScript` | 4d ago |
+| [`Globe-Wallet`](https://github.com/Orbit-Wal/Globe-Wallet) | Web app — dashboard, convert, off-ramp, savings | `TypeScript` · ⭐ 3 | 18h ago |
+| [`backend`](https://github.com/Orbit-Wal/backend) | REST API — accounts, balances, payments, pricing | `TypeScript` | 1d ago |
+| [`contract`](https://github.com/Orbit-Wal/contract) | On-chain wallet registry & token-transfer guardrails | `Rust` | 1d ago |
 <!--REPO_TABLE:END-->
 
 ## Architecture
@@ -84,14 +84,14 @@ All apps default to **Stellar testnet** — see each repo's `.env.example` befor
 ## Recent activity
 
 <!--RECENT_ACTIVITY:START-->
-- **Globe-Wallet** [`bd9d817`](https://github.com/Orbit-Wal/Globe-Wallet/commit/bd9d8173a48e481f08b24f9c2f9eb3adb5d199da) Merge pull request #111 from Ayinkx1/ui/bundle-size-audit — _ndii-dev, 1h ago_
-- **backend** [`335ab31`](https://github.com/Orbit-Wal/backend/commit/335ab319c9e45658b5626ef4c8ed71a5875ae825) Merge pull request #52 from shepherd-001/feat/environment-variable-valid — _ndii-dev, 1h ago_
-- **contract** [`7a960b8`](https://github.com/Orbit-Wal/contract/commit/7a960b8f13d917f1387be7407c666fd2763785ca) Merge pull request #13 from TochukwuJustice/admin-transfer — _ndii-dev, 1h ago_
-- **contract** [`697461b`](https://github.com/Orbit-Wal/contract/commit/697461b5266444adf775320a853f180666243267) Merge branch 'main' into admin-transfer — _ndii-dev, 1h ago_
-- **contract** [`9b1774a`](https://github.com/Orbit-Wal/contract/commit/9b1774a8032c8c3e4889a5681feaf79cc16c73f0) Merge pull request #12 from bamiebot-maker/feat/globe-wallet-upgrade-mec — _ndii-dev, 1h ago_
-- **contract** [`781413b`](https://github.com/Orbit-Wal/contract/commit/781413b4b4fea146d8c73b624731e20fa34950b1) Merge branch 'main' into feat/globe-wallet-upgrade-mechanism — _ndii-dev, 1h ago_
-- **contract** [`24b24bb`](https://github.com/Orbit-Wal/contract/commit/24b24bbe6ad8bc324e90dad384c14e3072c7e24b) Merge pull request #14 from TochukwuJustice/fix-clamps-turn — _ndii-dev, 1h ago_
-- **backend** [`4701381`](https://github.com/Orbit-Wal/backend/commit/470138163a99686645ba0ed66ca14b19e5fd577f) feat: add environment variable  validation — _Shepherd, 12h ago_
+- **Globe-Wallet** [`6a06d70`](https://github.com/Orbit-Wal/Globe-Wallet/commit/6a06d70e021d168631f1ebbab4646b4b8ccc940c) Merge pull request #113 from AbuJulaybeeb/fix/transaction-sync-110 — _ndii-dev, 18h ago_
+- **Globe-Wallet** [`ad5760c`](https://github.com/Orbit-Wal/Globe-Wallet/commit/ad5760cb77ff93a2dba718874f09f3c33b70ecb1) Merge pull request #112 from shepherd-001/fix/csrf-protection — _ndii-dev, 18h ago_
+- **Globe-Wallet** [`410ad72`](https://github.com/Orbit-Wal/Globe-Wallet/commit/410ad726eba30b3d72882ade440232b58894035d) fix: remove errant jest-environment comment causing build failure — _AbuJulaybeeb, 23h ago_
+- **Globe-Wallet** [`a0c0d9c`](https://github.com/Orbit-Wal/Globe-Wallet/commit/a0c0d9c276ca83b9f7c4d85282dbdfd66d0a1a33) fix: integrate real Horizon polling and ledger settlement checks for tra — _AbuJulaybeeb, 23h ago_
+- **Globe-Wallet** [`4000608`](https://github.com/Orbit-Wal/Globe-Wallet/commit/40006085357c84c08a3f295491f758aab7d8982d) feat: add bearer token auth — _Shepherd, 1d ago_
+- **backend** [`335ab31`](https://github.com/Orbit-Wal/backend/commit/335ab319c9e45658b5626ef4c8ed71a5875ae825) Merge pull request #52 from shepherd-001/feat/environment-variable-valid — _ndii-dev, 1d ago_
+- **contract** [`7a960b8`](https://github.com/Orbit-Wal/contract/commit/7a960b8f13d917f1387be7407c666fd2763785ca) Merge pull request #13 from TochukwuJustice/admin-transfer — _ndii-dev, 1d ago_
+- **contract** [`697461b`](https://github.com/Orbit-Wal/contract/commit/697461b5266444adf775320a853f180666243267) Merge branch 'main' into admin-transfer — _ndii-dev, 1d ago_
 <!--RECENT_ACTIVITY:END-->
 
 ---
@@ -99,6 +99,6 @@ All apps default to **Stellar testnet** — see each repo's `.env.example` befor
 <div align="center">
 <sub>Building the crypto ↔ fiat bridge on Stellar.</sub><br>
 <sub><!--LAST_UPDATED:START-->
-auto-updated · last refresh 2026-07-17 08:07 UTC
+auto-updated · last refresh 2026-07-18 07:46 UTC
 <!--LAST_UPDATED:END--></sub>
 </div>
