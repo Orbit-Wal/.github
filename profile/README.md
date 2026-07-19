@@ -22,10 +22,10 @@ GlobeWallet is a full-stack wallet for the Stellar network: hold and send XLM, c
 <!--REPO_TABLE:START-->
 | Repo | What it is | Language | Last push |
 |---|---|---|---|
-| [`mobile`](https://github.com/Orbit-Wal/mobile) | iOS/Android wallet app | `TypeScript` | 4d ago |
-| [`Globe-Wallet`](https://github.com/Orbit-Wal/Globe-Wallet) | Web app — dashboard, convert, off-ramp, savings | `TypeScript` · ⭐ 3 | 18h ago |
-| [`backend`](https://github.com/Orbit-Wal/backend) | REST API — accounts, balances, payments, pricing | `TypeScript` | 1d ago |
-| [`contract`](https://github.com/Orbit-Wal/contract) | On-chain wallet registry & token-transfer guardrails | `Rust` | 1d ago |
+| [`mobile`](https://github.com/Orbit-Wal/mobile) | iOS/Android wallet app | `TypeScript` | 16h ago |
+| [`Globe-Wallet`](https://github.com/Orbit-Wal/Globe-Wallet) | Web app — dashboard, convert, off-ramp, savings | `TypeScript` · ⭐ 3 | 16h ago |
+| [`backend`](https://github.com/Orbit-Wal/backend) | REST API — accounts, balances, payments, pricing | `TypeScript` | 16h ago |
+| [`contract`](https://github.com/Orbit-Wal/contract) | On-chain wallet registry & token-transfer guardrails | `Rust` | 16h ago |
 <!--REPO_TABLE:END-->
 
 ## Architecture
@@ -84,14 +84,14 @@ All apps default to **Stellar testnet** — see each repo's `.env.example` befor
 ## Recent activity
 
 <!--RECENT_ACTIVITY:START-->
-- **Globe-Wallet** [`6a06d70`](https://github.com/Orbit-Wal/Globe-Wallet/commit/6a06d70e021d168631f1ebbab4646b4b8ccc940c) Merge pull request #113 from AbuJulaybeeb/fix/transaction-sync-110 — _ndii-dev, 18h ago_
-- **Globe-Wallet** [`ad5760c`](https://github.com/Orbit-Wal/Globe-Wallet/commit/ad5760cb77ff93a2dba718874f09f3c33b70ecb1) Merge pull request #112 from shepherd-001/fix/csrf-protection — _ndii-dev, 18h ago_
-- **Globe-Wallet** [`410ad72`](https://github.com/Orbit-Wal/Globe-Wallet/commit/410ad726eba30b3d72882ade440232b58894035d) fix: remove errant jest-environment comment causing build failure — _AbuJulaybeeb, 23h ago_
-- **Globe-Wallet** [`a0c0d9c`](https://github.com/Orbit-Wal/Globe-Wallet/commit/a0c0d9c276ca83b9f7c4d85282dbdfd66d0a1a33) fix: integrate real Horizon polling and ledger settlement checks for tra — _AbuJulaybeeb, 23h ago_
-- **Globe-Wallet** [`4000608`](https://github.com/Orbit-Wal/Globe-Wallet/commit/40006085357c84c08a3f295491f758aab7d8982d) feat: add bearer token auth — _Shepherd, 1d ago_
-- **backend** [`335ab31`](https://github.com/Orbit-Wal/backend/commit/335ab319c9e45658b5626ef4c8ed71a5875ae825) Merge pull request #52 from shepherd-001/feat/environment-variable-valid — _ndii-dev, 1d ago_
-- **contract** [`7a960b8`](https://github.com/Orbit-Wal/contract/commit/7a960b8f13d917f1387be7407c666fd2763785ca) Merge pull request #13 from TochukwuJustice/admin-transfer — _ndii-dev, 1d ago_
-- **contract** [`697461b`](https://github.com/Orbit-Wal/contract/commit/697461b5266444adf775320a853f180666243267) Merge branch 'main' into admin-transfer — _ndii-dev, 1d ago_
+- **Globe-Wallet** [`ffc2fdf`](https://github.com/Orbit-Wal/Globe-Wallet/commit/ffc2fdfc10020fa9c98dfbd8d1febc6d71dfcd2a) Merge pull request #115 from heymide/round-trip-conversion — _ndii-dev, 16h ago_
+- **Globe-Wallet** [`51b4e38`](https://github.com/Orbit-Wal/Globe-Wallet/commit/51b4e38f4656df75fe8f48edb683e2e7c469cc0d) Merge branch 'main' into round-trip-conversion — _ndii-dev, 16h ago_
+- **mobile** [`1c2e0fd`](https://github.com/Orbit-Wal/mobile/commit/1c2e0fdd75de5cefa4087aa03c3220193aca8ef2) Merge pull request #53 from Ayinkx1/codex/issue-52-code-assistant — _ndii-dev, 16h ago_
+- **contract** [`0b31b78`](https://github.com/Orbit-Wal/contract/commit/0b31b78cbb6c6870f9fb907b4912a708d2a4a4c0) Merge pull request #1 from Orbit-Wal/fix/spend-limit-storage-ttl — _ndii-dev, 16h ago_
+- **contract** [`0cadc2b`](https://github.com/Orbit-Wal/contract/commit/0cadc2b8eba2feab69311dc0be475bfac41d1b42) Merge branch 'main' into fix/spend-limit-storage-ttl — _ndii-dev, 16h ago_
+- **contract** [`f2c650e`](https://github.com/Orbit-Wal/contract/commit/f2c650e424f32a465fb159c4a1bdd5d6d4597eaf) Merge pull request #17 from mac-dubem/fix/unbounded-user-assets — _ndii-dev, 16h ago_
+- **contract** [`f444286`](https://github.com/Orbit-Wal/contract/commit/f444286e7da555458b254e180f6919562d576c21) Merge branch 'main' into fix/unbounded-user-assets — _ndii-dev, 16h ago_
+- **contract** [`275f01d`](https://github.com/Orbit-Wal/contract/commit/275f01dba0766449cf3ab48887a08a22402c6c73) Merge pull request #18 from mac-dubem/fix/unbounded-whitelist-vec — _ndii-dev, 16h ago_
 <!--RECENT_ACTIVITY:END-->
 
 ---
@@ -99,6 +99,6 @@ All apps default to **Stellar testnet** — see each repo's `.env.example` befor
 <div align="center">
 <sub>Building the crypto ↔ fiat bridge on Stellar.</sub><br>
 <sub><!--LAST_UPDATED:START-->
-auto-updated · last refresh 2026-07-18 07:46 UTC
+auto-updated · last refresh 2026-07-19 08:13 UTC
 <!--LAST_UPDATED:END--></sub>
 </div>
