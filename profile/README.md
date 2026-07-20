@@ -22,10 +22,10 @@ GlobeWallet is a full-stack wallet for the Stellar network: hold and send XLM, c
 <!--REPO_TABLE:START-->
 | Repo | What it is | Language | Last push |
 |---|---|---|---|
-| [`mobile`](https://github.com/Orbit-Wal/mobile) | iOS/Android wallet app | `TypeScript` | 16h ago |
-| [`Globe-Wallet`](https://github.com/Orbit-Wal/Globe-Wallet) | Web app — dashboard, convert, off-ramp, savings | `TypeScript` · ⭐ 3 | 16h ago |
-| [`backend`](https://github.com/Orbit-Wal/backend) | REST API — accounts, balances, payments, pricing | `TypeScript` | 16h ago |
-| [`contract`](https://github.com/Orbit-Wal/contract) | On-chain wallet registry & token-transfer guardrails | `Rust` | 16h ago |
+| [`mobile`](https://github.com/Orbit-Wal/mobile) | iOS/Android wallet app | `TypeScript` | 19h ago |
+| [`Globe-Wallet`](https://github.com/Orbit-Wal/Globe-Wallet) | Web app — dashboard, convert, off-ramp, savings | `TypeScript` · ⭐ 3 | 20h ago |
+| [`backend`](https://github.com/Orbit-Wal/backend) | REST API — accounts, balances, payments, pricing | `TypeScript` | 20h ago |
+| [`contract`](https://github.com/Orbit-Wal/contract) | On-chain wallet registry & token-transfer guardrails | `Rust` | 20h ago |
 <!--REPO_TABLE:END-->
 
 ## Architecture
@@ -84,14 +84,14 @@ All apps default to **Stellar testnet** — see each repo's `.env.example` befor
 ## Recent activity
 
 <!--RECENT_ACTIVITY:START-->
-- **Globe-Wallet** [`ffc2fdf`](https://github.com/Orbit-Wal/Globe-Wallet/commit/ffc2fdfc10020fa9c98dfbd8d1febc6d71dfcd2a) Merge pull request #115 from heymide/round-trip-conversion — _ndii-dev, 16h ago_
-- **Globe-Wallet** [`51b4e38`](https://github.com/Orbit-Wal/Globe-Wallet/commit/51b4e38f4656df75fe8f48edb683e2e7c469cc0d) Merge branch 'main' into round-trip-conversion — _ndii-dev, 16h ago_
-- **mobile** [`1c2e0fd`](https://github.com/Orbit-Wal/mobile/commit/1c2e0fdd75de5cefa4087aa03c3220193aca8ef2) Merge pull request #53 from Ayinkx1/codex/issue-52-code-assistant — _ndii-dev, 16h ago_
-- **contract** [`0b31b78`](https://github.com/Orbit-Wal/contract/commit/0b31b78cbb6c6870f9fb907b4912a708d2a4a4c0) Merge pull request #1 from Orbit-Wal/fix/spend-limit-storage-ttl — _ndii-dev, 16h ago_
-- **contract** [`0cadc2b`](https://github.com/Orbit-Wal/contract/commit/0cadc2b8eba2feab69311dc0be475bfac41d1b42) Merge branch 'main' into fix/spend-limit-storage-ttl — _ndii-dev, 16h ago_
-- **contract** [`f2c650e`](https://github.com/Orbit-Wal/contract/commit/f2c650e424f32a465fb159c4a1bdd5d6d4597eaf) Merge pull request #17 from mac-dubem/fix/unbounded-user-assets — _ndii-dev, 16h ago_
-- **contract** [`f444286`](https://github.com/Orbit-Wal/contract/commit/f444286e7da555458b254e180f6919562d576c21) Merge branch 'main' into fix/unbounded-user-assets — _ndii-dev, 16h ago_
-- **contract** [`275f01d`](https://github.com/Orbit-Wal/contract/commit/275f01dba0766449cf3ab48887a08a22402c6c73) Merge pull request #18 from mac-dubem/fix/unbounded-whitelist-vec — _ndii-dev, 16h ago_
+- **mobile** [`8d4d92e`](https://github.com/Orbit-Wal/mobile/commit/8d4d92eaeb286f40637574e725a54ffd75bb8334) Merge pull request #54 from Ndifreke000/feat/guardian-recovery-11 — _ndii-dev, 19h ago_
+- **mobile** [`b471e47`](https://github.com/Orbit-Wal/mobile/commit/b471e4701435de496afda9b095067fa1f376ecdc) Merge branch 'main' into feat/guardian-recovery-11 — _ndii-dev, 19h ago_
+- **mobile** [`ab51687`](https://github.com/Orbit-Wal/mobile/commit/ab51687f4e9cac742b098338acff8b7bd985a5a2) feat(recovery): guardian-based social/multi-sig recovery (fixes #11) — _yosemite01, 19h ago_
+- **contract** [`a217687`](https://github.com/Orbit-Wal/contract/commit/a21768794fae4b332916d0b22bfba18c71e7b661) Merge pull request #19 from Orbit-Wal/fix/globe-wallet-admin-transfer-me — _ndii-dev, 20h ago_
+- **contract** [`21fb0b0`](https://github.com/Orbit-Wal/contract/commit/21fb0b0cddb71589040bf59f3192d0925a58c41b) Merge branch 'main' into fix/globe-wallet-admin-transfer-merge — _ndii-dev, 20h ago_
+- **contract** [`a917340`](https://github.com/Orbit-Wal/contract/commit/a9173400e0dea117528f3095b1586f1cf5f72530) Merge pull request #20 from Orbit-Wal/feat/guardian-recovery — _ndii-dev, 20h ago_
+- **backend** [`8695b51`](https://github.com/Orbit-Wal/backend/commit/8695b513a29f19ec2247e1a0f018a4ee591c4b39) Merge pull request #55 from shepherd-001/feat/transaction-cursor-paginat — _ndii-dev, 20h ago_
+- **Globe-Wallet** [`3454808`](https://github.com/Orbit-Wal/Globe-Wallet/commit/3454808cea65f87dc585217e253fe03cadb5972d) Merge pull request #124 from od-hunter/feat/multi-account-switching — _ndii-dev, 20h ago_
 <!--RECENT_ACTIVITY:END-->
 
 ---
@@ -99,6 +99,6 @@ All apps default to **Stellar testnet** — see each repo's `.env.example` befor
 <div align="center">
 <sub>Building the crypto ↔ fiat bridge on Stellar.</sub><br>
 <sub><!--LAST_UPDATED:START-->
-auto-updated · last refresh 2026-07-19 08:13 UTC
+auto-updated · last refresh 2026-07-20 08:55 UTC
 <!--LAST_UPDATED:END--></sub>
 </div>
