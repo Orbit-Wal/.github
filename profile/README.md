@@ -22,10 +22,10 @@ GlobeWallet is a full-stack wallet for the Stellar network: hold and send XLM, c
 <!--REPO_TABLE:START-->
 | Repo | What it is | Language | Last push |
 |---|---|---|---|
-| [`mobile`](https://github.com/Orbit-Wal/mobile) | iOS/Android wallet app | `TypeScript` | 19h ago |
-| [`Globe-Wallet`](https://github.com/Orbit-Wal/Globe-Wallet) | Web app — dashboard, convert, off-ramp, savings | `TypeScript` · ⭐ 3 | 20h ago |
-| [`backend`](https://github.com/Orbit-Wal/backend) | REST API — accounts, balances, payments, pricing | `TypeScript` | 20h ago |
-| [`contract`](https://github.com/Orbit-Wal/contract) | On-chain wallet registry & token-transfer guardrails | `Rust` | 20h ago |
+| [`mobile`](https://github.com/Orbit-Wal/mobile) | iOS/Android wallet app | `TypeScript` | 1d ago |
+| [`Globe-Wallet`](https://github.com/Orbit-Wal/Globe-Wallet) | Web app — dashboard, convert, off-ramp, savings | `TypeScript` · ⭐ 3 | 14h ago |
+| [`backend`](https://github.com/Orbit-Wal/backend) | REST API — accounts, balances, payments, pricing | `TypeScript` | 9h ago |
+| [`contract`](https://github.com/Orbit-Wal/contract) | On-chain wallet registry & token-transfer guardrails | `Rust` | 19h ago |
 <!--REPO_TABLE:END-->
 
 ## Architecture
@@ -84,14 +84,14 @@ All apps default to **Stellar testnet** — see each repo's `.env.example` befor
 ## Recent activity
 
 <!--RECENT_ACTIVITY:START-->
-- **mobile** [`8d4d92e`](https://github.com/Orbit-Wal/mobile/commit/8d4d92eaeb286f40637574e725a54ffd75bb8334) Merge pull request #54 from Ndifreke000/feat/guardian-recovery-11 — _ndii-dev, 19h ago_
-- **mobile** [`b471e47`](https://github.com/Orbit-Wal/mobile/commit/b471e4701435de496afda9b095067fa1f376ecdc) Merge branch 'main' into feat/guardian-recovery-11 — _ndii-dev, 19h ago_
-- **mobile** [`ab51687`](https://github.com/Orbit-Wal/mobile/commit/ab51687f4e9cac742b098338acff8b7bd985a5a2) feat(recovery): guardian-based social/multi-sig recovery (fixes #11) — _yosemite01, 19h ago_
-- **contract** [`a217687`](https://github.com/Orbit-Wal/contract/commit/a21768794fae4b332916d0b22bfba18c71e7b661) Merge pull request #19 from Orbit-Wal/fix/globe-wallet-admin-transfer-me — _ndii-dev, 20h ago_
-- **contract** [`21fb0b0`](https://github.com/Orbit-Wal/contract/commit/21fb0b0cddb71589040bf59f3192d0925a58c41b) Merge branch 'main' into fix/globe-wallet-admin-transfer-merge — _ndii-dev, 20h ago_
-- **contract** [`a917340`](https://github.com/Orbit-Wal/contract/commit/a9173400e0dea117528f3095b1586f1cf5f72530) Merge pull request #20 from Orbit-Wal/feat/guardian-recovery — _ndii-dev, 20h ago_
-- **backend** [`8695b51`](https://github.com/Orbit-Wal/backend/commit/8695b513a29f19ec2247e1a0f018a4ee591c4b39) Merge pull request #55 from shepherd-001/feat/transaction-cursor-paginat — _ndii-dev, 20h ago_
-- **Globe-Wallet** [`3454808`](https://github.com/Orbit-Wal/Globe-Wallet/commit/3454808cea65f87dc585217e253fe03cadb5972d) Merge pull request #124 from od-hunter/feat/multi-account-switching — _ndii-dev, 20h ago_
+- **backend** [`de69fe1`](https://github.com/Orbit-Wal/backend/commit/de69fe1626defaaffe69a3a9e905ced6043074de) Merge pull request #59 from yosemite01/feat/soroban-rpc-integration — _ndii-dev, 9h ago_
+- **backend** [`bfa9a5c`](https://github.com/Orbit-Wal/backend/commit/bfa9a5c75d9ae4afa014d331e6a35d53105fac3e) feat: add Soroban RPC integration for the globe-wallet contract — _yosemite01, 12h ago_
+- **backend** [`9a59028`](https://github.com/Orbit-Wal/backend/commit/9a590280d854dd0ed51e0304ab1ba1376210e4a4) Merge pull request #57 from mac-dubem/fix/add-keypair-audit-trail — _ndii-dev, 14h ago_
+- **backend** [`c6e32ff`](https://github.com/Orbit-Wal/backend/commit/c6e32ffe3098149786f2df275d84a7c8d272e4bc) Merge branch 'main' into fix/add-keypair-audit-trail — _ndii-dev, 14h ago_
+- **Globe-Wallet** [`4bacb8d`](https://github.com/Orbit-Wal/Globe-Wallet/commit/4bacb8dfdf13ef95538b763d5bc4e13abbd764e3) Merge pull request #130 from ebubeb683-ship-it/virtualization — _ndii-dev, 14h ago_
+- **Globe-Wallet** [`4fb3fc9`](https://github.com/Orbit-Wal/Globe-Wallet/commit/4fb3fc98579f4b27ff7fb67dd41089f6ab9f0339) Add SSE stream endpoint and accessibility enhancements — _superman32432432, 14h ago_
+- **backend** [`76e351b`](https://github.com/Orbit-Wal/backend/commit/76e351bc347eb2010365a03a03a7a99e207104e9) wallet: add audit trail for keypair issuance (#43) — _mac-dubem, 16h ago_
+- **contract** [`c5cc58e`](https://github.com/Orbit-Wal/contract/commit/c5cc58e73f76680f7db0906ffbc65fa59ab37626) Merge pull request #21 from ONEONUORA/test-for-record_spend — _ndii-dev, 19h ago_
 <!--RECENT_ACTIVITY:END-->
 
 ---
@@ -99,6 +99,6 @@ All apps default to **Stellar testnet** — see each repo's `.env.example` befor
 <div align="center">
 <sub>Building the crypto ↔ fiat bridge on Stellar.</sub><br>
 <sub><!--LAST_UPDATED:START-->
-auto-updated · last refresh 2026-07-20 08:55 UTC
+auto-updated · last refresh 2026-07-21 08:25 UTC
 <!--LAST_UPDATED:END--></sub>
 </div>
