@@ -22,10 +22,10 @@ GlobeWallet is a full-stack wallet for the Stellar network: hold and send XLM, c
 <!--REPO_TABLE:START-->
 | Repo | What it is | Language | Last push |
 |---|---|---|---|
-| [`mobile`](https://github.com/Orbit-Wal/mobile) | iOS/Android wallet app | `TypeScript` | 3d ago |
-| [`Globe-Wallet`](https://github.com/Orbit-Wal/Globe-Wallet) | Web app — dashboard, convert, off-ramp, savings | `TypeScript` · ⭐ 3 | 4d ago |
-| [`backend`](https://github.com/Orbit-Wal/backend) | REST API — accounts, balances, payments, pricing | `TypeScript` | 4d ago |
-| [`contract`](https://github.com/Orbit-Wal/contract) | On-chain wallet registry & token-transfer guardrails | `Rust` | 6d ago |
+| [`mobile`](https://github.com/Orbit-Wal/mobile) | iOS/Android wallet app | `TypeScript` | 4d ago |
+| [`Globe-Wallet`](https://github.com/Orbit-Wal/Globe-Wallet) | Web app — dashboard, convert, off-ramp, savings | `TypeScript` · ⭐ 3 | 5d ago |
+| [`backend`](https://github.com/Orbit-Wal/backend) | REST API — accounts, balances, payments, pricing | `TypeScript` | 5d ago |
+| [`contract`](https://github.com/Orbit-Wal/contract) | On-chain wallet registry & token-transfer guardrails | `Rust` | 7d ago |
 <!--REPO_TABLE:END-->
 
 ## Architecture
@@ -84,14 +84,14 @@ All apps default to **Stellar testnet** — see each repo's `.env.example` befor
 ## Recent activity
 
 <!--RECENT_ACTIVITY:START-->
-- **mobile** [`ea35512`](https://github.com/Orbit-Wal/mobile/commit/ea35512366912024373dfc989270a92a792ca4fe) Merge pull request #56 from Ayinkx1/codex/issue-8-root-detection — _ndii-dev, 3d ago_
-- **mobile** [`d72b005`](https://github.com/Orbit-Wal/mobile/commit/d72b0054908af8a6f845be134e080a624e5b82b8) Fixes #8: Implement warn-only root detection — _Ayinkx1, 4d ago_
-- **mobile** [`5915acc`](https://github.com/Orbit-Wal/mobile/commit/5915acc533f4ae67584569c617c8bb9022bce3df) fix: protect key-material screens from capture — _Ayinkx1, 4d ago_
-- **Globe-Wallet** [`ae86d22`](https://github.com/Orbit-Wal/Globe-Wallet/commit/ae86d225fd21fc1a4f354213c840d4d557911139) Merge pull request #139 from shepherd-001/docs/transaction-query-perform — _ndii-dev, 4d ago_
-- **Globe-Wallet** [`a3e75f9`](https://github.com/Orbit-Wal/Globe-Wallet/commit/a3e75f908d09ac7ca1a6fb0ebae1319555ad16d7) Docs: Add transaction query performance and indexing design — _Shepherd, 4d ago_
-- **Globe-Wallet** [`26c188e`](https://github.com/Orbit-Wal/Globe-Wallet/commit/26c188e1916a410de2ab576e4d46f9ab390f72f5) Docs: Add transaction query performance and indexing design — _Shepherd, 4d ago_
-- **backend** [`491f7cf`](https://github.com/Orbit-Wal/backend/commit/491f7cf31eea59ad6f9b35b58fedf8c7eb44b5c8) Merge pull request #60 from Debbys-design/fix/issues-4-5-6 — _ndii-dev, 4d ago_
-- **backend** [`211b0a9`](https://github.com/Orbit-Wal/backend/commit/211b0a9b2593d223763c91b2640447d5f58d35ff) Merge branch 'main' into fix/issues-4-5-6 — _ndii-dev, 4d ago_
+- **mobile** [`ea35512`](https://github.com/Orbit-Wal/mobile/commit/ea35512366912024373dfc989270a92a792ca4fe) Merge pull request #56 from Ayinkx1/codex/issue-8-root-detection — _ndii-dev, 4d ago_
+- **mobile** [`d72b005`](https://github.com/Orbit-Wal/mobile/commit/d72b0054908af8a6f845be134e080a624e5b82b8) Fixes #8: Implement warn-only root detection — _Ayinkx1, 5d ago_
+- **mobile** [`5915acc`](https://github.com/Orbit-Wal/mobile/commit/5915acc533f4ae67584569c617c8bb9022bce3df) fix: protect key-material screens from capture — _Ayinkx1, 5d ago_
+- **Globe-Wallet** [`ae86d22`](https://github.com/Orbit-Wal/Globe-Wallet/commit/ae86d225fd21fc1a4f354213c840d4d557911139) Merge pull request #139 from shepherd-001/docs/transaction-query-perform — _ndii-dev, 5d ago_
+- **Globe-Wallet** [`a3e75f9`](https://github.com/Orbit-Wal/Globe-Wallet/commit/a3e75f908d09ac7ca1a6fb0ebae1319555ad16d7) Docs: Add transaction query performance and indexing design — _Shepherd, 5d ago_
+- **Globe-Wallet** [`26c188e`](https://github.com/Orbit-Wal/Globe-Wallet/commit/26c188e1916a410de2ab576e4d46f9ab390f72f5) Docs: Add transaction query performance and indexing design — _Shepherd, 5d ago_
+- **backend** [`491f7cf`](https://github.com/Orbit-Wal/backend/commit/491f7cf31eea59ad6f9b35b58fedf8c7eb44b5c8) Merge pull request #60 from Debbys-design/fix/issues-4-5-6 — _ndii-dev, 5d ago_
+- **backend** [`211b0a9`](https://github.com/Orbit-Wal/backend/commit/211b0a9b2593d223763c91b2640447d5f58d35ff) Merge branch 'main' into fix/issues-4-5-6 — _ndii-dev, 5d ago_
 <!--RECENT_ACTIVITY:END-->
 
 ---
@@ -99,6 +99,6 @@ All apps default to **Stellar testnet** — see each repo's `.env.example` befor
 <div align="center">
 <sub>Building the crypto ↔ fiat bridge on Stellar.</sub><br>
 <sub><!--LAST_UPDATED:START-->
-auto-updated · last refresh 2026-07-27 09:48 UTC
+auto-updated · last refresh 2026-07-28 08:31 UTC
 <!--LAST_UPDATED:END--></sub>
 </div>
