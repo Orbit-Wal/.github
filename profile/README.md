@@ -22,10 +22,10 @@ GlobeWallet is a full-stack wallet for the Stellar network: hold and send XLM, c
 <!--REPO_TABLE:START-->
 | Repo | What it is | Language | Last push |
 |---|---|---|---|
-| [`mobile`](https://github.com/Orbit-Wal/mobile) | iOS/Android wallet app | `TypeScript` | 16d ago |
-| [`Globe-Wallet`](https://github.com/Orbit-Wal/Globe-Wallet) | Web app — dashboard, convert, off-ramp, savings | `TypeScript` · ⭐ 3 | 10d ago |
-| [`backend`](https://github.com/Orbit-Wal/backend) | REST API — accounts, balances, payments, pricing | `TypeScript` | 17d ago |
-| [`contract`](https://github.com/Orbit-Wal/contract) | On-chain wallet registry & token-transfer guardrails | `Rust` | 19d ago |
+| [`mobile`](https://github.com/Orbit-Wal/mobile) | iOS/Android wallet app | `TypeScript` | 17d ago |
+| [`Globe-Wallet`](https://github.com/Orbit-Wal/Globe-Wallet) | Web app — dashboard, convert, off-ramp, savings | `TypeScript` · ⭐ 3 | 11d ago |
+| [`backend`](https://github.com/Orbit-Wal/backend) | REST API — accounts, balances, payments, pricing | `TypeScript` | 18d ago |
+| [`contract`](https://github.com/Orbit-Wal/contract) | On-chain wallet registry & token-transfer guardrails | `Rust` | 20d ago |
 <!--REPO_TABLE:END-->
 
 ## Architecture
@@ -84,14 +84,14 @@ All apps default to **Stellar testnet** — see each repo's `.env.example` befor
 ## Recent activity
 
 <!--RECENT_ACTIVITY:START-->
-- **Globe-Wallet** [`97c314c`](https://github.com/Orbit-Wal/Globe-Wallet/commit/97c314c772ce353babe80314ea81841bb3aecb03) Merge pull request #148 from Orbit-Wal/hotfix/duplicate-withnextintl — _ndii-dev, 10d ago_
-- **Globe-Wallet** [`47e1540`](https://github.com/Orbit-Wal/Globe-Wallet/commit/47e15400a4e73127002d81eeeda95ce12e893812) hotfix: remove duplicate withNextIntl declaration in next.config.mjs — _Ndifreke000, 10d ago_
-- **Globe-Wallet** [`17157ef`](https://github.com/Orbit-Wal/Globe-Wallet/commit/17157ef12c3897d01ed855f091e8b48fc0ae33d5) Merge pull request #147 from Orbit-Wal/fix/test-suite-gaps — _ndii-dev, 10d ago_
-- **Globe-Wallet** [`70bad5b`](https://github.com/Orbit-Wal/Globe-Wallet/commit/70bad5be24e484c7999827b4caec4452e68db536) Merge branch 'main' into fix/test-suite-gaps — _ndii-dev, 10d ago_
-- **Globe-Wallet** [`5b6ce82`](https://github.com/Orbit-Wal/Globe-Wallet/commit/5b6ce8211bc57c588030e01fa2904e61f4021a66) fix: i18n locale routing 404, CI test suite gaps, and CSP/security heade — _Ndifreke000, 10d ago_
-- **mobile** [`ea35512`](https://github.com/Orbit-Wal/mobile/commit/ea35512366912024373dfc989270a92a792ca4fe) Merge pull request #56 from Ayinkx1/codex/issue-8-root-detection — _ndii-dev, 16d ago_
-- **mobile** [`d72b005`](https://github.com/Orbit-Wal/mobile/commit/d72b0054908af8a6f845be134e080a624e5b82b8) Fixes #8: Implement warn-only root detection — _Ayinkx, 17d ago_
-- **mobile** [`5915acc`](https://github.com/Orbit-Wal/mobile/commit/5915acc533f4ae67584569c617c8bb9022bce3df) fix: protect key-material screens from capture — _Ayinkx, 17d ago_
+- **Globe-Wallet** [`97c314c`](https://github.com/Orbit-Wal/Globe-Wallet/commit/97c314c772ce353babe80314ea81841bb3aecb03) Merge pull request #148 from Orbit-Wal/hotfix/duplicate-withnextintl — _ndii-dev, 11d ago_
+- **Globe-Wallet** [`47e1540`](https://github.com/Orbit-Wal/Globe-Wallet/commit/47e15400a4e73127002d81eeeda95ce12e893812) hotfix: remove duplicate withNextIntl declaration in next.config.mjs — _Ndifreke000, 11d ago_
+- **Globe-Wallet** [`17157ef`](https://github.com/Orbit-Wal/Globe-Wallet/commit/17157ef12c3897d01ed855f091e8b48fc0ae33d5) Merge pull request #147 from Orbit-Wal/fix/test-suite-gaps — _ndii-dev, 11d ago_
+- **Globe-Wallet** [`70bad5b`](https://github.com/Orbit-Wal/Globe-Wallet/commit/70bad5be24e484c7999827b4caec4452e68db536) Merge branch 'main' into fix/test-suite-gaps — _ndii-dev, 11d ago_
+- **Globe-Wallet** [`5b6ce82`](https://github.com/Orbit-Wal/Globe-Wallet/commit/5b6ce8211bc57c588030e01fa2904e61f4021a66) fix: i18n locale routing 404, CI test suite gaps, and CSP/security heade — _Ndifreke000, 11d ago_
+- **mobile** [`ea35512`](https://github.com/Orbit-Wal/mobile/commit/ea35512366912024373dfc989270a92a792ca4fe) Merge pull request #56 from Ayinkx1/codex/issue-8-root-detection — _ndii-dev, 17d ago_
+- **mobile** [`d72b005`](https://github.com/Orbit-Wal/mobile/commit/d72b0054908af8a6f845be134e080a624e5b82b8) Fixes #8: Implement warn-only root detection — _Ayinkx, 18d ago_
+- **mobile** [`5915acc`](https://github.com/Orbit-Wal/mobile/commit/5915acc533f4ae67584569c617c8bb9022bce3df) fix: protect key-material screens from capture — _Ayinkx, 18d ago_
 <!--RECENT_ACTIVITY:END-->
 
 ---
@@ -99,6 +99,6 @@ All apps default to **Stellar testnet** — see each repo's `.env.example` befor
 <div align="center">
 <sub>Building the crypto ↔ fiat bridge on Stellar.</sub><br>
 <sub><!--LAST_UPDATED:START-->
-auto-updated · last refresh 2026-08-09 06:53 UTC
+auto-updated · last refresh 2026-08-10 07:28 UTC
 <!--LAST_UPDATED:END--></sub>
 </div>
