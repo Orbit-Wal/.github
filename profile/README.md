@@ -22,9 +22,9 @@ GlobeWallet is a full-stack wallet for the Stellar network: hold and send XLM, c
 <!--REPO_TABLE:START-->
 | Repo | What it is | Language | Last push |
 |---|---|---|---|
-| [`mobile`](https://github.com/Orbit-Wal/mobile) | iOS/Android wallet app | `TypeScript` | 5d ago |
-| [`Globe-Wallet`](https://github.com/Orbit-Wal/Globe-Wallet) | Web app — dashboard, convert, off-ramp, savings | `TypeScript` · ⭐ 3 | 21d ago |
-| [`backend`](https://github.com/Orbit-Wal/backend) | REST API — accounts, balances, payments, pricing | `TypeScript` | 28d ago |
+| [`mobile`](https://github.com/Orbit-Wal/mobile) | iOS/Android wallet app | `TypeScript` | 6d ago |
+| [`Globe-Wallet`](https://github.com/Orbit-Wal/Globe-Wallet) | Web app — dashboard, convert, off-ramp, savings | `TypeScript` · ⭐ 3 | 22d ago |
+| [`backend`](https://github.com/Orbit-Wal/backend) | REST API — accounts, balances, payments, pricing | `TypeScript` | 29d ago |
 | [`contract`](https://github.com/Orbit-Wal/contract) | On-chain wallet registry & token-transfer guardrails | `Rust` | 1mo ago |
 <!--REPO_TABLE:END-->
 
@@ -84,14 +84,14 @@ All apps default to **Stellar testnet** — see each repo's `.env.example` befor
 ## Recent activity
 
 <!--RECENT_ACTIVITY:START-->
-- **mobile** [`073e1a8`](https://github.com/Orbit-Wal/mobile/commit/073e1a8bf0886ebcac3e5edb98e7611cc542d53c) Add date logs to activity entries — _yosemite01, 5d ago_
-- **mobile** [`c2b965f`](https://github.com/Orbit-Wal/mobile/commit/c2b965fc4c77f71e545c33930444df07b322f262) Rewrite activity log as prose bullets — _yosemite01, 5d ago_
-- **mobile** [`2b61cee`](https://github.com/Orbit-Wal/mobile/commit/2b61cee859ee5cb9d0c7f7229ac5a5f35415cef6) Add development activity log (June 18 - Aug 14, 2026) — _yosemite01, 5d ago_
-- **Globe-Wallet** [`97c314c`](https://github.com/Orbit-Wal/Globe-Wallet/commit/97c314c772ce353babe80314ea81841bb3aecb03) Merge pull request #148 from Orbit-Wal/hotfix/duplicate-withnextintl — _ndii-dev, 21d ago_
-- **Globe-Wallet** [`47e1540`](https://github.com/Orbit-Wal/Globe-Wallet/commit/47e15400a4e73127002d81eeeda95ce12e893812) hotfix: remove duplicate withNextIntl declaration in next.config.mjs — _Ndifreke000, 21d ago_
-- **Globe-Wallet** [`17157ef`](https://github.com/Orbit-Wal/Globe-Wallet/commit/17157ef12c3897d01ed855f091e8b48fc0ae33d5) Merge pull request #147 from Orbit-Wal/fix/test-suite-gaps — _ndii-dev, 21d ago_
-- **Globe-Wallet** [`70bad5b`](https://github.com/Orbit-Wal/Globe-Wallet/commit/70bad5be24e484c7999827b4caec4452e68db536) Merge branch 'main' into fix/test-suite-gaps — _ndii-dev, 21d ago_
-- **Globe-Wallet** [`5b6ce82`](https://github.com/Orbit-Wal/Globe-Wallet/commit/5b6ce8211bc57c588030e01fa2904e61f4021a66) fix: i18n locale routing 404, CI test suite gaps, and CSP/security heade — _Ndifreke000, 21d ago_
+- **mobile** [`073e1a8`](https://github.com/Orbit-Wal/mobile/commit/073e1a8bf0886ebcac3e5edb98e7611cc542d53c) Add date logs to activity entries — _yosemite01, 6d ago_
+- **mobile** [`c2b965f`](https://github.com/Orbit-Wal/mobile/commit/c2b965fc4c77f71e545c33930444df07b322f262) Rewrite activity log as prose bullets — _yosemite01, 6d ago_
+- **mobile** [`2b61cee`](https://github.com/Orbit-Wal/mobile/commit/2b61cee859ee5cb9d0c7f7229ac5a5f35415cef6) Add development activity log (June 18 - Aug 14, 2026) — _yosemite01, 6d ago_
+- **Globe-Wallet** [`97c314c`](https://github.com/Orbit-Wal/Globe-Wallet/commit/97c314c772ce353babe80314ea81841bb3aecb03) Merge pull request #148 from Orbit-Wal/hotfix/duplicate-withnextintl — _ndii-dev, 22d ago_
+- **Globe-Wallet** [`47e1540`](https://github.com/Orbit-Wal/Globe-Wallet/commit/47e15400a4e73127002d81eeeda95ce12e893812) hotfix: remove duplicate withNextIntl declaration in next.config.mjs — _Ndifreke000, 22d ago_
+- **Globe-Wallet** [`17157ef`](https://github.com/Orbit-Wal/Globe-Wallet/commit/17157ef12c3897d01ed855f091e8b48fc0ae33d5) Merge pull request #147 from Orbit-Wal/fix/test-suite-gaps — _ndii-dev, 22d ago_
+- **Globe-Wallet** [`70bad5b`](https://github.com/Orbit-Wal/Globe-Wallet/commit/70bad5be24e484c7999827b4caec4452e68db536) Merge branch 'main' into fix/test-suite-gaps — _ndii-dev, 22d ago_
+- **Globe-Wallet** [`5b6ce82`](https://github.com/Orbit-Wal/Globe-Wallet/commit/5b6ce8211bc57c588030e01fa2904e61f4021a66) fix: i18n locale routing 404, CI test suite gaps, and CSP/security heade — _Ndifreke000, 22d ago_
 <!--RECENT_ACTIVITY:END-->
 
 ---
@@ -99,6 +99,6 @@ All apps default to **Stellar testnet** — see each repo's `.env.example` befor
 <div align="center">
 <sub>Building the crypto ↔ fiat bridge on Stellar.</sub><br>
 <sub><!--LAST_UPDATED:START-->
-auto-updated · last refresh 2026-08-20 06:41 UTC
+auto-updated · last refresh 2026-08-21 06:41 UTC
 <!--LAST_UPDATED:END--></sub>
 </div>
