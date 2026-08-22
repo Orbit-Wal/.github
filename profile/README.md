@@ -22,9 +22,9 @@ GlobeWallet is a full-stack wallet for the Stellar network: hold and send XLM, c
 <!--REPO_TABLE:START-->
 | Repo | What it is | Language | Last push |
 |---|---|---|---|
-| [`mobile`](https://github.com/Orbit-Wal/mobile) | iOS/Android wallet app | `TypeScript` | 6d ago |
-| [`Globe-Wallet`](https://github.com/Orbit-Wal/Globe-Wallet) | Web app — dashboard, convert, off-ramp, savings | `TypeScript` · ⭐ 3 | 22d ago |
-| [`backend`](https://github.com/Orbit-Wal/backend) | REST API — accounts, balances, payments, pricing | `TypeScript` | 29d ago |
+| [`mobile`](https://github.com/Orbit-Wal/mobile) | iOS/Android wallet app | `TypeScript` | 12h ago |
+| [`Globe-Wallet`](https://github.com/Orbit-Wal/Globe-Wallet) | Web app — dashboard, convert, off-ramp, savings | `TypeScript` · ⭐ 3 | 11h ago |
+| [`backend`](https://github.com/Orbit-Wal/backend) | REST API — accounts, balances, payments, pricing | `TypeScript` | 11h ago |
 | [`contract`](https://github.com/Orbit-Wal/contract) | On-chain wallet registry & token-transfer guardrails | `Rust` | 1mo ago |
 <!--REPO_TABLE:END-->
 
@@ -84,14 +84,14 @@ All apps default to **Stellar testnet** — see each repo's `.env.example` befor
 ## Recent activity
 
 <!--RECENT_ACTIVITY:START-->
-- **mobile** [`073e1a8`](https://github.com/Orbit-Wal/mobile/commit/073e1a8bf0886ebcac3e5edb98e7611cc542d53c) Add date logs to activity entries — _yosemite01, 6d ago_
-- **mobile** [`c2b965f`](https://github.com/Orbit-Wal/mobile/commit/c2b965fc4c77f71e545c33930444df07b322f262) Rewrite activity log as prose bullets — _yosemite01, 6d ago_
-- **mobile** [`2b61cee`](https://github.com/Orbit-Wal/mobile/commit/2b61cee859ee5cb9d0c7f7229ac5a5f35415cef6) Add development activity log (June 18 - Aug 14, 2026) — _yosemite01, 6d ago_
-- **Globe-Wallet** [`97c314c`](https://github.com/Orbit-Wal/Globe-Wallet/commit/97c314c772ce353babe80314ea81841bb3aecb03) Merge pull request #148 from Orbit-Wal/hotfix/duplicate-withnextintl — _ndii-dev, 22d ago_
-- **Globe-Wallet** [`47e1540`](https://github.com/Orbit-Wal/Globe-Wallet/commit/47e15400a4e73127002d81eeeda95ce12e893812) hotfix: remove duplicate withNextIntl declaration in next.config.mjs — _Ndifreke000, 22d ago_
-- **Globe-Wallet** [`17157ef`](https://github.com/Orbit-Wal/Globe-Wallet/commit/17157ef12c3897d01ed855f091e8b48fc0ae33d5) Merge pull request #147 from Orbit-Wal/fix/test-suite-gaps — _ndii-dev, 22d ago_
-- **Globe-Wallet** [`70bad5b`](https://github.com/Orbit-Wal/Globe-Wallet/commit/70bad5be24e484c7999827b4caec4452e68db536) Merge branch 'main' into fix/test-suite-gaps — _ndii-dev, 22d ago_
-- **Globe-Wallet** [`5b6ce82`](https://github.com/Orbit-Wal/Globe-Wallet/commit/5b6ce8211bc57c588030e01fa2904e61f4021a66) fix: i18n locale routing 404, CI test suite gaps, and CSP/security heade — _Ndifreke000, 22d ago_
+- **Globe-Wallet** [`4de1863`](https://github.com/Orbit-Wal/Globe-Wallet/commit/4de18631a33745c545ff5bd3b833e046a039ad50) Merge pull request #149 from shepherd-001/feat/auth_jwt_sessions — _ndii-dev, 11h ago_
+- **backend** [`b23acd2`](https://github.com/Orbit-Wal/backend/commit/b23acd22a7bfe475dc8ab85cd7fcbfd11e10abb3) Merge pull request #62 from shepherd-001/feat/error_handler — _ndii-dev, 11h ago_
+- **Globe-Wallet** [`55df44c`](https://github.com/Orbit-Wal/Globe-Wallet/commit/55df44c762072851b9aa495c041cc95003bd8b66) fix: retire unreachable Issue #15 analytics dashboard code — _yosemite01, 12h ago_
+- **Globe-Wallet** [`9caa567`](https://github.com/Orbit-Wal/Globe-Wallet/commit/9caa5675a535c83266fb6a14de56dd7e30348b07) fix: remove dead countdownTimerRef and its unimplemented-UI tests — _yosemite01, 12h ago_
+- **Globe-Wallet** [`2ba095e`](https://github.com/Orbit-Wal/Globe-Wallet/commit/2ba095e2a57eee5fe3d941626dffccbae7400d25) build: add Dockerfile + compose topology for production deployment — _yosemite01, 12h ago_
+- **Globe-Wallet** [`817bf98`](https://github.com/Orbit-Wal/Globe-Wallet/commit/817bf98b3d4c07b2b519f4f9d686eaaab01dfcba) fix: coalesce concurrent rate-cache misses into a single upstream fetch — _yosemite01, 12h ago_
+- **mobile** [`e3f16b5`](https://github.com/Orbit-Wal/mobile/commit/e3f16b5f5651c36161b12605ced17b7b653b19d1) Reduce secret key reference lifetime; document zeroization ceiling — _yosemite01, 12h ago_
+- **mobile** [`53079b2`](https://github.com/Orbit-Wal/mobile/commit/53079b2ab6a848a37cce4fc9886d69c04c8e86f4) Use network-reported base fee instead of hardcoded BASE_FEE — _yosemite01, 12h ago_
 <!--RECENT_ACTIVITY:END-->
 
 ---
@@ -99,6 +99,6 @@ All apps default to **Stellar testnet** — see each repo's `.env.example` befor
 <div align="center">
 <sub>Building the crypto ↔ fiat bridge on Stellar.</sub><br>
 <sub><!--LAST_UPDATED:START-->
-auto-updated · last refresh 2026-08-21 06:41 UTC
+auto-updated · last refresh 2026-08-22 06:36 UTC
 <!--LAST_UPDATED:END--></sub>
 </div>
