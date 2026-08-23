@@ -22,10 +22,10 @@ GlobeWallet is a full-stack wallet for the Stellar network: hold and send XLM, c
 <!--REPO_TABLE:START-->
 | Repo | What it is | Language | Last push |
 |---|---|---|---|
-| [`mobile`](https://github.com/Orbit-Wal/mobile) | iOS/Android wallet app | `TypeScript` | 12h ago |
-| [`Globe-Wallet`](https://github.com/Orbit-Wal/Globe-Wallet) | Web app — dashboard, convert, off-ramp, savings | `TypeScript` · ⭐ 3 | 11h ago |
-| [`backend`](https://github.com/Orbit-Wal/backend) | REST API — accounts, balances, payments, pricing | `TypeScript` | 11h ago |
-| [`contract`](https://github.com/Orbit-Wal/contract) | On-chain wallet registry & token-transfer guardrails | `Rust` | 1mo ago |
+| [`mobile`](https://github.com/Orbit-Wal/mobile) | iOS/Android wallet app | `TypeScript` | 1d ago |
+| [`Globe-Wallet`](https://github.com/Orbit-Wal/Globe-Wallet) | Web app — dashboard, convert, off-ramp, savings | `TypeScript` · ⭐ 3 | 1d ago |
+| [`backend`](https://github.com/Orbit-Wal/backend) | REST API — accounts, balances, payments, pricing | `TypeScript` | 15h ago |
+| [`contract`](https://github.com/Orbit-Wal/contract) | On-chain wallet registry & token-transfer guardrails | `Rust` | 15h ago |
 <!--REPO_TABLE:END-->
 
 ## Architecture
@@ -84,14 +84,14 @@ All apps default to **Stellar testnet** — see each repo's `.env.example` befor
 ## Recent activity
 
 <!--RECENT_ACTIVITY:START-->
-- **Globe-Wallet** [`4de1863`](https://github.com/Orbit-Wal/Globe-Wallet/commit/4de18631a33745c545ff5bd3b833e046a039ad50) Merge pull request #149 from shepherd-001/feat/auth_jwt_sessions — _ndii-dev, 11h ago_
-- **backend** [`b23acd2`](https://github.com/Orbit-Wal/backend/commit/b23acd22a7bfe475dc8ab85cd7fcbfd11e10abb3) Merge pull request #62 from shepherd-001/feat/error_handler — _ndii-dev, 11h ago_
-- **Globe-Wallet** [`55df44c`](https://github.com/Orbit-Wal/Globe-Wallet/commit/55df44c762072851b9aa495c041cc95003bd8b66) fix: retire unreachable Issue #15 analytics dashboard code — _yosemite01, 12h ago_
-- **Globe-Wallet** [`9caa567`](https://github.com/Orbit-Wal/Globe-Wallet/commit/9caa5675a535c83266fb6a14de56dd7e30348b07) fix: remove dead countdownTimerRef and its unimplemented-UI tests — _yosemite01, 12h ago_
-- **Globe-Wallet** [`2ba095e`](https://github.com/Orbit-Wal/Globe-Wallet/commit/2ba095e2a57eee5fe3d941626dffccbae7400d25) build: add Dockerfile + compose topology for production deployment — _yosemite01, 12h ago_
-- **Globe-Wallet** [`817bf98`](https://github.com/Orbit-Wal/Globe-Wallet/commit/817bf98b3d4c07b2b519f4f9d686eaaab01dfcba) fix: coalesce concurrent rate-cache misses into a single upstream fetch — _yosemite01, 12h ago_
-- **mobile** [`e3f16b5`](https://github.com/Orbit-Wal/mobile/commit/e3f16b5f5651c36161b12605ced17b7b653b19d1) Reduce secret key reference lifetime; document zeroization ceiling — _yosemite01, 12h ago_
-- **mobile** [`53079b2`](https://github.com/Orbit-Wal/mobile/commit/53079b2ab6a848a37cce4fc9886d69c04c8e86f4) Use network-reported base fee instead of hardcoded BASE_FEE — _yosemite01, 12h ago_
+- **backend** [`a6a26c6`](https://github.com/Orbit-Wal/backend/commit/a6a26c699ec04a375b3365a316393b3431423fe3) Merge pull request #103 from Devadakene/fix/jwt-memory-leak — _ndii-dev, 15h ago_
+- **backend** [`5c13037`](https://github.com/Orbit-Wal/backend/commit/5c1303715f899799fee9954bfdddebbf65a155a4) Merge pull request #102 from Devadakene/fix/jwt-sub-claim-document-ident — _ndii-dev, 15h ago_
+- **backend** [`46a8324`](https://github.com/Orbit-Wal/backend/commit/46a8324d2cd75e8963668000a517b247efcfe2c7) Merge pull request #104 from Devadakene/fix/memo-required-error — _ndii-dev, 15h ago_
+- **contract** [`2798652`](https://github.com/Orbit-Wal/contract/commit/27986526ba6ea8ebb6f347121c80db3c55d101be) Merge pull request #56 from Devadakene/fix-asset-info-validation — _ndii-dev, 15h ago_
+- **contract** [`1de7967`](https://github.com/Orbit-Wal/contract/commit/1de7967349450a3a4d45101ff47beb65d4647b8e) Merge pull request #55 from LeoRicch/fix/45-guardian-membership-index — _ndii-dev, 15h ago_
+- **contract** [`5ac4e30`](https://github.com/Orbit-Wal/contract/commit/5ac4e30c06f308273ca575fb928744b00b39051c) Merge pull request #54 from edochieblessing09-max/fix-propose-upgrade-au — _ndii-dev, 15h ago_
+- **contract** [`3178198`](https://github.com/Orbit-Wal/contract/commit/31781981725b600225df15ca4e56a93c1dc7ca7e) fix(wallet): validate asset code and issuer consistency — _Devadakene, 16h ago_
+- **backend** [`9368a4b`](https://github.com/Orbit-Wal/backend/commit/9368a4bd3659a49e8a5913b3dff59d809a1d6a72) fix: explicit 400 mapping for MemoRequiredError — _Devadakene, 16h ago_
 <!--RECENT_ACTIVITY:END-->
 
 ---
@@ -99,6 +99,6 @@ All apps default to **Stellar testnet** — see each repo's `.env.example` befor
 <div align="center">
 <sub>Building the crypto ↔ fiat bridge on Stellar.</sub><br>
 <sub><!--LAST_UPDATED:START-->
-auto-updated · last refresh 2026-08-22 06:36 UTC
+auto-updated · last refresh 2026-08-23 06:37 UTC
 <!--LAST_UPDATED:END--></sub>
 </div>
