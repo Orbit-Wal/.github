@@ -22,10 +22,10 @@ GlobeWallet is a full-stack wallet for the Stellar network: hold and send XLM, c
 <!--REPO_TABLE:START-->
 | Repo | What it is | Language | Last push |
 |---|---|---|---|
-| [`mobile`](https://github.com/Orbit-Wal/mobile) | iOS/Android wallet app | `TypeScript` | 4d ago |
-| [`Globe-Wallet`](https://github.com/Orbit-Wal/Globe-Wallet) | Web app — dashboard, convert, off-ramp, savings | `TypeScript` · ⭐ 3 | 4d ago |
-| [`backend`](https://github.com/Orbit-Wal/backend) | REST API — accounts, balances, payments, pricing | `TypeScript` | 1d ago |
-| [`contract`](https://github.com/Orbit-Wal/contract) | On-chain wallet registry & token-transfer guardrails | `Rust` | 19h ago |
+| [`mobile`](https://github.com/Orbit-Wal/mobile) | iOS/Android wallet app | `TypeScript` | 5d ago |
+| [`Globe-Wallet`](https://github.com/Orbit-Wal/Globe-Wallet) | Web app — dashboard, convert, off-ramp, savings | `TypeScript` · ⭐ 3 | 5d ago |
+| [`backend`](https://github.com/Orbit-Wal/backend) | REST API — accounts, balances, payments, pricing | `TypeScript` | 3d ago |
+| [`contract`](https://github.com/Orbit-Wal/contract) | On-chain wallet registry & token-transfer guardrails | `Rust` | 2d ago |
 <!--REPO_TABLE:END-->
 
 ## Architecture
@@ -84,14 +84,14 @@ All apps default to **Stellar testnet** — see each repo's `.env.example` befor
 ## Recent activity
 
 <!--RECENT_ACTIVITY:START-->
-- **contract** [`48fd8b3`](https://github.com/Orbit-Wal/contract/commit/48fd8b3fb472da4d23e38a27233ecad9c440e8ad) Merge pull request #73 from kosisochukwu1234/fix-recovery-docs-link — _ndii-dev, 19h ago_
-- **contract** [`0999b47`](https://github.com/Orbit-Wal/contract/commit/0999b47ce32690e9c1fbc2a1bc42c38412338511) docs: Update RECOVERY.md link to absolute URL and document convention — _kosisochukwu1234, 1d ago_
-- **contract** [`4678a6c`](https://github.com/Orbit-Wal/contract/commit/4678a6c85a4939f2c1a6e3470758503f3e33b0e1) Merge pull request #71 from yosemite01/fix/issue-24-token-wrapper-orphan — _ndii-dev, 1d ago_
-- **contract** [`e3aaa97`](https://github.com/Orbit-Wal/contract/commit/e3aaa97fb54843b63785fe427727cec369c7ae1d) Merge pull request #72 from yosemite01/fix/issue-23-walletError-discrimi — _ndii-dev, 1d ago_
-- **contract** [`5f19b42`](https://github.com/Orbit-Wal/contract/commit/5f19b42116a9a71839b7bb560b69ef1930886c98) fix(globe-wallet): renumber WalletError to a single contiguous 1001+ sch — _Ndifreke000, 1d ago_
-- **backend** [`c788f78`](https://github.com/Orbit-Wal/backend/commit/c788f7836c34e812edce075a257e27c45bf74b6d) Merge pull request #110 from Hollujay/fix-78-price-readme-accuracy — _ndii-dev, 1d ago_
-- **backend** [`1d854f9`](https://github.com/Orbit-Wal/backend/commit/1d854f94e96976ea24d3201a18ab2eaeda1129df) Merge pull request #111 from ugoocreates-pixel/fix-api-key-comment — _ndii-dev, 1d ago_
-- **backend** [`548ee26`](https://github.com/Orbit-Wal/backend/commit/548ee262b7e99b911235e487228d739a4d3992cd) docs: clarify API_KEY deprecation scope in .env.example — _ugoocreates-pixel, 1d ago_
+- **contract** [`48fd8b3`](https://github.com/Orbit-Wal/contract/commit/48fd8b3fb472da4d23e38a27233ecad9c440e8ad) Merge pull request #73 from kosisochukwu1234/fix-recovery-docs-link — _ndii-dev, 2d ago_
+- **contract** [`0999b47`](https://github.com/Orbit-Wal/contract/commit/0999b47ce32690e9c1fbc2a1bc42c38412338511) docs: Update RECOVERY.md link to absolute URL and document convention — _kosisochukwu1234, 2d ago_
+- **contract** [`4678a6c`](https://github.com/Orbit-Wal/contract/commit/4678a6c85a4939f2c1a6e3470758503f3e33b0e1) Merge pull request #71 from yosemite01/fix/issue-24-token-wrapper-orphan — _ndii-dev, 3d ago_
+- **contract** [`e3aaa97`](https://github.com/Orbit-Wal/contract/commit/e3aaa97fb54843b63785fe427727cec369c7ae1d) Merge pull request #72 from yosemite01/fix/issue-23-walletError-discrimi — _ndii-dev, 3d ago_
+- **contract** [`5f19b42`](https://github.com/Orbit-Wal/contract/commit/5f19b42116a9a71839b7bb560b69ef1930886c98) fix(globe-wallet): renumber WalletError to a single contiguous 1001+ sch — _Ndifreke000, 3d ago_
+- **backend** [`c788f78`](https://github.com/Orbit-Wal/backend/commit/c788f7836c34e812edce075a257e27c45bf74b6d) Merge pull request #110 from Hollujay/fix-78-price-readme-accuracy — _ndii-dev, 3d ago_
+- **backend** [`1d854f9`](https://github.com/Orbit-Wal/backend/commit/1d854f94e96976ea24d3201a18ab2eaeda1129df) Merge pull request #111 from ugoocreates-pixel/fix-api-key-comment — _ndii-dev, 3d ago_
+- **backend** [`548ee26`](https://github.com/Orbit-Wal/backend/commit/548ee262b7e99b911235e487228d739a4d3992cd) docs: clarify API_KEY deprecation scope in .env.example — _ugoocreates-pixel, 3d ago_
 <!--RECENT_ACTIVITY:END-->
 
 ---
@@ -99,6 +99,6 @@ All apps default to **Stellar testnet** — see each repo's `.env.example` befor
 <div align="center">
 <sub>Building the crypto ↔ fiat bridge on Stellar.</sub><br>
 <sub><!--LAST_UPDATED:START-->
-auto-updated · last refresh 2026-08-26 06:44 UTC
+auto-updated · last refresh 2026-08-27 17:19 UTC
 <!--LAST_UPDATED:END--></sub>
 </div>
