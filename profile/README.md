@@ -22,10 +22,10 @@ GlobeWallet is a full-stack wallet for the Stellar network: hold and send XLM, c
 <!--REPO_TABLE:START-->
 | Repo | What it is | Language | Last push |
 |---|---|---|---|
-| [`mobile`](https://github.com/Orbit-Wal/mobile) | iOS/Android wallet app | `TypeScript` | 6d ago |
-| [`Globe-Wallet`](https://github.com/Orbit-Wal/Globe-Wallet) | Web app — dashboard, convert, off-ramp, savings | `TypeScript` · ⭐ 3 | 6d ago |
-| [`backend`](https://github.com/Orbit-Wal/backend) | REST API — accounts, balances, payments, pricing | `TypeScript` | 6d ago |
-| [`contract`](https://github.com/Orbit-Wal/contract) | On-chain wallet registry & token-transfer guardrails | `Rust` | 5d ago |
+| [`mobile`](https://github.com/Orbit-Wal/mobile) | iOS/Android wallet app | `TypeScript` | 7d ago |
+| [`Globe-Wallet`](https://github.com/Orbit-Wal/Globe-Wallet) | Web app — dashboard, convert, off-ramp, savings | `TypeScript` · ⭐ 3 | 7d ago |
+| [`backend`](https://github.com/Orbit-Wal/backend) | REST API — accounts, balances, payments, pricing | `TypeScript` | 7d ago |
+| [`contract`](https://github.com/Orbit-Wal/contract) | On-chain wallet registry & token-transfer guardrails | `Rust` | 6d ago |
 <!--REPO_TABLE:END-->
 
 ## Architecture
@@ -84,14 +84,14 @@ All apps default to **Stellar testnet** — see each repo's `.env.example` befor
 ## Recent activity
 
 <!--RECENT_ACTIVITY:START-->
-- **contract** [`fa6d92c`](https://github.com/Orbit-Wal/contract/commit/fa6d92c85eddfae8ed4ef6cb880dfd9d100a5093) Merge pull request #106 from christabel888/fix/timelock-minimum-delay-is — _ndii-dev, 5d ago_
-- **contract** [`d78c396`](https://github.com/Orbit-Wal/contract/commit/d78c396037855e804a056d68c2cf527eb540ec43) test(globe-wallet): commit regenerated snapshots for the timelock fix — _Ndifreke000, 5d ago_
-- **contract** [`b333423`](https://github.com/Orbit-Wal/contract/commit/b333423bca9d20dfa5b2c2222ec325d4afb2b80a) Merge pull request #107 from yosemite01/fix/issue-92-reentrancy-safe-wir — _ndii-dev, 5d ago_
-- **contract** [`1e2ce7f`](https://github.com/Orbit-Wal/contract/commit/1e2ce7f1349a0e698f78d9e028a8d5ba2ebfb271) fix(globe-wallet): enforce minimum timelock delays for upgrades and reco — _Ndifreke000, 5d ago_
-- **contract** [`077f191`](https://github.com/Orbit-Wal/contract/commit/077f1910a4993d2b84c9b0ddfd00e73f64837e10) fix: reentrancy-safe wiring of globe-wallet::send to token-wrapper::tran — _Ndifreke000, 5d ago_
-- **Globe-Wallet** [`c289b8a`](https://github.com/Orbit-Wal/Globe-Wallet/commit/c289b8a220ebe90beaf5db27133f8ef470284f3f) Merge pull request #152 from Orbit-Wal/feat/ux-testing-issues-78-91-94-1 — _ndii-dev, 6d ago_
-- **Globe-Wallet** [`4a4926e`](https://github.com/Orbit-Wal/Globe-Wallet/commit/4a4926e5b0809a4a4ac34d0a7ad2ebbe23d92a4b) Merge remote-tracking branch 'origin/main' into feat/ux-testing-issues-7 — _Ndifreke000, 6d ago_
-- **Globe-Wallet** [`2818d0f`](https://github.com/Orbit-Wal/Globe-Wallet/commit/2818d0f36d0a08ea7934e50789f1946f1b4f19a6) Add optimistic send UI, PWA offline support, chart perf tests, testnet t — _Ndifreke000, 6d ago_
+- **contract** [`fa6d92c`](https://github.com/Orbit-Wal/contract/commit/fa6d92c85eddfae8ed4ef6cb880dfd9d100a5093) Merge pull request #106 from christabel888/fix/timelock-minimum-delay-is — _ndii-dev, 6d ago_
+- **contract** [`d78c396`](https://github.com/Orbit-Wal/contract/commit/d78c396037855e804a056d68c2cf527eb540ec43) test(globe-wallet): commit regenerated snapshots for the timelock fix — _Ndifreke000, 6d ago_
+- **contract** [`b333423`](https://github.com/Orbit-Wal/contract/commit/b333423bca9d20dfa5b2c2222ec325d4afb2b80a) Merge pull request #107 from yosemite01/fix/issue-92-reentrancy-safe-wir — _ndii-dev, 6d ago_
+- **contract** [`1e2ce7f`](https://github.com/Orbit-Wal/contract/commit/1e2ce7f1349a0e698f78d9e028a8d5ba2ebfb271) fix(globe-wallet): enforce minimum timelock delays for upgrades and reco — _Ndifreke000, 6d ago_
+- **contract** [`077f191`](https://github.com/Orbit-Wal/contract/commit/077f1910a4993d2b84c9b0ddfd00e73f64837e10) fix: reentrancy-safe wiring of globe-wallet::send to token-wrapper::tran — _Ndifreke000, 6d ago_
+- **Globe-Wallet** [`c289b8a`](https://github.com/Orbit-Wal/Globe-Wallet/commit/c289b8a220ebe90beaf5db27133f8ef470284f3f) Merge pull request #152 from Orbit-Wal/feat/ux-testing-issues-78-91-94-1 — _ndii-dev, 7d ago_
+- **Globe-Wallet** [`4a4926e`](https://github.com/Orbit-Wal/Globe-Wallet/commit/4a4926e5b0809a4a4ac34d0a7ad2ebbe23d92a4b) Merge remote-tracking branch 'origin/main' into feat/ux-testing-issues-7 — _Ndifreke000, 7d ago_
+- **Globe-Wallet** [`2818d0f`](https://github.com/Orbit-Wal/Globe-Wallet/commit/2818d0f36d0a08ea7934e50789f1946f1b4f19a6) Add optimistic send UI, PWA offline support, chart perf tests, testnet t — _Ndifreke000, 7d ago_
 <!--RECENT_ACTIVITY:END-->
 
 ---
@@ -99,6 +99,6 @@ All apps default to **Stellar testnet** — see each repo's `.env.example` befor
 <div align="center">
 <sub>Building the crypto ↔ fiat bridge on Stellar.</sub><br>
 <sub><!--LAST_UPDATED:START-->
-auto-updated · last refresh 2026-09-04 10:36 UTC
+auto-updated · last refresh 2026-09-05 09:58 UTC
 <!--LAST_UPDATED:END--></sub>
 </div>
