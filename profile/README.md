@@ -99,6 +99,6 @@ All apps default to **Stellar testnet** — see each repo's `.env.example` befor
 <div align="center">
 <sub>Building the crypto ↔ fiat bridge on Stellar.</sub><br>
 <sub><!--LAST_UPDATED:START-->
-auto-updated · last refresh 2026-09-29 12:08 UTC
+auto-updated · last refresh 2026-09-30 11:56 UTC
 <!--LAST_UPDATED:END--></sub>
 </div>
