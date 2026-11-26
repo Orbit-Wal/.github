@@ -24,7 +24,7 @@ GlobeWallet is a full-stack wallet for the Stellar network: hold and send XLM, c
 |---|---|---|---|
 | [`mobile`](https://github.com/Orbit-Wal/mobile) | iOS/Android wallet app | `TypeScript` | 2mo ago |
 | [`Globe-Wallet`](https://github.com/Orbit-Wal/Globe-Wallet) | Web app — dashboard, convert, off-ramp, savings | `TypeScript` · ⭐ 3 | 2mo ago |
-| [`backend`](https://github.com/Orbit-Wal/backend) | REST API — accounts, balances, payments, pricing | `TypeScript` | 2mo ago |
+| [`backend`](https://github.com/Orbit-Wal/backend) | REST API — accounts, balances, payments, pricing | `TypeScript` | 3mo ago |
 | [`contract`](https://github.com/Orbit-Wal/contract) | On-chain wallet registry & token-transfer guardrails | `Rust` | 2mo ago |
 <!--REPO_TABLE:END-->
 
@@ -99,6 +99,6 @@ All apps default to **Stellar testnet** — see each repo's `.env.example` befor
 <div align="center">
 <sub>Building the crypto ↔ fiat bridge on Stellar.</sub><br>
 <sub><!--LAST_UPDATED:START-->
-auto-updated · last refresh 2026-11-25 16:47 UTC
+auto-updated · last refresh 2026-11-26 16:24 UTC
 <!--LAST_UPDATED:END--></sub>
 </div>
